@@ -8,3 +8,8 @@ CREATE TABLE books (
     price DOUBLE NOT NULL,
     publication_date DATE NOT NULL
 );
+
+CREATE TABLE authors (
+    author_id INT AUTO_INCREMENT PRIMARY KEY,
+    author_name VARCHAR(215) NOT NULL
+);
